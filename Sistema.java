@@ -5,6 +5,7 @@ public class Coca_Cola {
         System.out.println("Bienvenido al sistema de vacaciones de Coca-Cola Company");
         Scanner escaner = new Scanner(System.in);
         String Nombre = "";
+        String Apellido = "";
         int Clave = 0;
         int Antiguedad = 0;
 
