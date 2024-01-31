@@ -12,6 +12,8 @@ public class Coca_Cola {
         System.out.println("");
         System.out.print("¿Como se llama el trabajador?");
         Nombre = escaner.nextLine();
+        System.out.println("Cual es su Apellido");
+        Apellido = escaner.nextLine();
         System.out.print("¿Nummero de su departamento?");
         Clave = escaner.nextInt();
         System.out.print("¿Cuantos años lleva trabajando?");
@@ -23,11 +25,11 @@ public class Coca_Cola {
 
         if (Clave == 1) {
             if (Antiguedad == 1) {
-                System.out.println("El trabajador" + Nombre + " Tiene derecho a 6 dias de vacaciones");
+                System.out.println("El trabajador" + Nombre + Apellido + " Tiene derecho a 6 dias de vacaciones");
             } else if (Antiguedad >= 2 && Antiguedad <= 6) {
-                System.out.println("El trabajador"  + Nombre + " Tiene derecho a 14 dias de vacaciones");
+                System.out.println("El trabajador"  + Nombre + Apellido + " Tiene derecho a 14 dias de vacaciones");
             } else if (Antiguedad >= 7) {
-                System.out.println("El trabajador" + Nombre + " Tiene derecho a 20 dias de vacaciones");
+                System.out.println("El trabajador" + Nombre + Apellido + " Tiene derecho a 20 dias de vacaciones");
             } else {
                 System.out.println("El año ingresado es incorrecto");
             }
@@ -36,11 +38,11 @@ public class Coca_Cola {
 
         } else if (Clave == 2) {
             if (Antiguedad == 1) {
-                System.out.println("El trabajador" + Nombre + " Tiene derecho a 7 dias de vacaciones");
+                System.out.println("El trabajador" + Nombre + Apellido + " Tiene derecho a 7 dias de vacaciones");
             } else if (Antiguedad >= 2 && Antiguedad <= 6) {
-                System.out.println("El trabajador" + Nombre + " Tiene derecho a 15 dias de vacaciones");
+                System.out.println("El trabajador" + Nombre + Apellido + " Tiene derecho a 15 dias de vacaciones");
             } else if (Antiguedad >= 7) {
-                System.out.println("El trabajador" + Nombre + " Tiene derecho a 22 dias de vacaciones");
+                System.out.println("El trabajador" + Nombre + Apellido + " Tiene derecho a 22 dias de vacaciones");
             } else {
                 System.out.println("El año ingresado es incorrecto");
             }
@@ -49,11 +51,11 @@ public class Coca_Cola {
 
         } else if (Clave == 3) {
             if (Antiguedad == 1) {
-                System.out.println("El trabajador" + Nombre + " Tiene derecho a 10 dias de vacaciones");
+                System.out.println("El trabajador" + Nombre + Apellido + " Tiene derecho a 10 dias de vacaciones");
             } else if (Antiguedad >= 2 && Antiguedad <= 6) {
-                System.out.println("El trabajador" + Nombre + " Tiene derecho a 20 dias de vacaciones");
+                System.out.println("El trabajador" + Nombre + Apellido + " Tiene derecho a 20 dias de vacaciones");
             } else if (Antiguedad >= 7) {
-                System.out.println("El trabajador" + Nombre + " Tiene derecho a 30 dias de vacaciones");
+                System.out.println("El trabajador" + Nombre + Apellido + " Tiene derecho a 30 dias de vacaciones");
             } else {
                 System.out.println("El año ingresado es incorrecto");
             }
