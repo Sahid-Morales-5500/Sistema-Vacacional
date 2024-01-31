@@ -16,6 +16,8 @@ public class Coca_Cola {
         System.out.print("¿Cuantos años lleva trabajando?");
         Antiguedad = escaner.nextInt();
 
+        System.out.println("Gracias por usar");
+
         // Clave 1 (Departamento de atencion al cliente //
 
         if (Clave == 1) {
